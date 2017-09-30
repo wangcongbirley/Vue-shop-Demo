@@ -1,0 +1,38 @@
+{
+  "getNewsList": [
+    {
+      "id": 1,
+      "title": "新闻条目啦啦啦啦啦啦啦拉拉是德法撒旦法撒旦法",
+      "url": "http://starcraft.com"
+    },
+    {
+      "id": 2,
+      "title": "朝闻天下噢噢噢噢噢噢噢噢噢噢噢德法撒旦法撒旦法",
+      "url": "http://warcraft.com"
+    },
+    {
+      "id": 3,
+      "title": "焦点访谈",
+      "url": "http://overwatch.com"
+    },
+    {
+      "id": 4,
+      "title": "广告发布",
+      "url": "http://hearstone.com"
+    }
+  ],
+  "login": {
+    "username": "cwdthans",
+    "userId": 321
+  },
+  "getPrice": {
+    "amount": 678
+  },
+  "createOrder": {},
+  "getOrderList": {
+    "query": "",
+    "productId": 0,
+    "startDate": "",
+    "endDate": ""
+  }
+}
