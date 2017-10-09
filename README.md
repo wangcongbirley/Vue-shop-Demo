@@ -15,4 +15,6 @@ A shop case for vue.js!
     npm run dev
     
 ## 运行截图
-
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE1.png) 
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE2.png) 
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE3.png) 
