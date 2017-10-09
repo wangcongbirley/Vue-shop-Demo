@@ -248,7 +248,7 @@
 				</tbody>
 			</table>
 		</div>
-		<bank-dialog :isShow="bankDialog" @on-close="closeDialog"></bank-dialog>
+		<bank-dialog :isShow="bankDialog" @on-close="closeDialog" @on-check="CheckOrders"></bank-dialog>
 		<check-order :isShowCheckDialog="isShowCheckOrder" @on-close-check-dialog=""></check-order>
 
 	</div>
@@ -279,7 +279,7 @@
 			return {
 				bankDialog: false,
 				isShowDialog: false,
-					isShowCheckOrder: false,
+				isShowCheckOrder: false,
 				buyNum: 0,
 				buyType: {},
 				versions: [],
@@ -331,6 +331,13 @@
 			},
 			closeDialog() {
 				this.bankDialog = false
+			},
+			CheckOrders() {
+				this.$http.get('/api/createOrder').then((res) => {
+					this.orderId = res.data.orderId
+					this.isShowCheckOrder = true
+					this.bankDialog = false
+				}, (err) => {})
 			}
 		}
 	}

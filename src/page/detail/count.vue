@@ -241,7 +241,7 @@
 				</tbody>
 			</table>
 		</div>
-		<bank-dialog :isShow="bankDialog" @on-close="closeDialog"></bank-dialog>
+		<bank-dialog :isShow="bankDialog" @on-close="closeDialog" @on-check="CheckOrders"></bank-dialog>
 		<check-order :isShowCheckDialog="isShowCheckOrder" @on-close-check-dialog=""></check-order>
 	</div>
 

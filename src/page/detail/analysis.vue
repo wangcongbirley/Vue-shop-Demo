@@ -76,7 +76,7 @@
 				<li>用户所在地理区域分布状况等</li>
 			</ul>
 		</div>
-		<bank-dialog :isShow="bankDialog" @on-close="closeDialog" @on-check=""></bank-dialog>
+		<bank-dialog :isShow="bankDialog" @on-close="closeDialog" @on-check="CheckOrders"></bank-dialog>
 		<my-dialog :is-show="isShowErrDialog" @on-close="hideErrDialog">
 			支付失败！
 		</my-dialog>
@@ -164,6 +164,13 @@
 			},
 			closeDialog() {
 				this.bankDialog = false
+			},
+			CheckOrders() {
+				this.$http.get('/api/createOrder').then((res) => {
+					this.orderId = res.data.orderId
+					this.isShowCheckOrder = true
+					this.bankDialog = false
+				}, (err) => {})
 			},
 			hideErrDialog() {},
 			hideCheckOrder() {}

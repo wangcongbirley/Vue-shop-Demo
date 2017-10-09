@@ -27,7 +27,7 @@
 							</table>
 							<h3 class="buy-dialog-title">请选择银行</h3>
 							<bank-chooser></bank-chooser>
-							<div class="button buy-dialog-btn" @click="">
+							<div class="button buy-dialog-btn" @click="check">
 								确认购买
 							</div>
 						</div>
