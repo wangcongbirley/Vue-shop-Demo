@@ -21,3 +21,6 @@ A shop case for vue.js!
 ![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE1.png) 
 ![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE2.png) 
 ![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE3.png) 
+
+### 特殊声明
+    此学习项目来自作者学习慕课Vue项目后的写的DEMO，部分静态资源来自源项目。仅供学习使用。
