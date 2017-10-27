@@ -5,6 +5,9 @@ A shop case for vue.js!
 此项目基于Vue.js`2.x`。适合刚学Vue的同学练手.<br>
 综合运用Vue的所有知识，可使同学们快速上手Vue
 
+## 在线地址
+[在线演示地址](http://learntolearn.cn/ "Vue项目在线演示")
+
 ## 学习说明
 此处使用json-server模拟后端接口。感谢(https://github.com/typicode/json-server)
 
