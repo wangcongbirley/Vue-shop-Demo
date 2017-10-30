@@ -2,8 +2,8 @@
 A shop case for vue.js!
 
 ## 声明
-此项目基于Vue.js`2.x`。适合刚学Vue的同学练手.<br>
-综合运用Vue的所有知识，可使同学们快速上手Vue
+此项目基于Vue.js`2.x`,为DEMO项目.<br>
+综合运用Vue的所有知识，同学们可一起学习快速上手Vue
 
 ### 特殊声明
 此学习项目来自小弟我在学习慕课Vue项目后的写的DEMO,部分静态资源来自源项目,修改了部分功能.仅供学习使用,觉得可以就学,不可以笑笑就可以了，谢谢各位。
@@ -21,7 +21,7 @@ A shop case for vue.js!
     npm run dev
     
 ## 运行截图
-![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE1.png) 
-![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE2.png) 
-![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/%E6%88%AA%E5%9B%BE3.png) 
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/screenshot1.jpg) 
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/screenshot2.jpg) 
+![github](https://github.com/congWang9496/vue-sale-shop-case/blob/master/screenshot/screenshot3.jpg) 
 
