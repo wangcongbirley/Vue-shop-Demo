@@ -216,9 +216,9 @@
 	}
 	
 	.order-list-table th {
-		background: #4fc08d;
+		background: #6E7B8B;
 		color: #fff;
-		border: 1px solid #4fc08d;
+		border: 1px solid #708090;
 		cursor: pointer;
 	}
 	

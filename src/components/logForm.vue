@@ -39,7 +39,7 @@
 		computed: {
 			userErrors() {
 				let status, errorText
-				if(/!^/g.test(this.usernameModel)) {
+				if(/!@#%,.;"/g.test(this.usernameModel)) {
 					status = false
 					errorText = '不能包含特殊字符'
 				} else {

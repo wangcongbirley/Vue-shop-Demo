@@ -73,7 +73,7 @@
 
 				this.closeDialog('isShowLogDialog')
 			},
-			quitClick() {	
+			quitClick() {
 				this.$nextTick(this.username = '')
 			}
 		}
@@ -177,7 +177,7 @@
 	}
 	
 	.app-head {
-		background: #363636;
+		background: #00688B;
 		color: #b2b2b2;
 		height: 90px;
 		line-height: 90px;
@@ -237,7 +237,7 @@
 	}
 	
 	.button {
-		background: #4fc08d;
+		background: #9AC0CD;
 		color: #fff;
 		display: inline-block;
 		padding: 10px 20px;

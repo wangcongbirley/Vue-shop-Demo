@@ -156,8 +156,8 @@
 	}
 	
 	.buy-dialog-table th {
-		background: #4fc08d;
+		background: #CD4F39;
 		color: #fff;
-		border: 1px solid #4fc08d;
+		border: 1px solid #CD5555;
 	}
 </style>

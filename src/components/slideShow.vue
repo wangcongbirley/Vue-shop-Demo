@@ -102,7 +102,7 @@
 		position: relative;
 		margin: 15px 15px 15px 0;
 		width: 900px;
-		height: 500px;
+		height: 340px;
 		overflow: hidden;
 	}
 	

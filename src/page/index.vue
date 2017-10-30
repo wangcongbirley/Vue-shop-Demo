@@ -20,7 +20,7 @@
 				</template>
 			</div>
 			<div class="index-left-block lastest-news">
-				<h2>最新消息</h2>
+				<h2>消息列表</h2>
 				<ul>
 					<li v-for="item in newsList">
 						<a :href="item.url" class="new-item">{{item.title}}</a>
@@ -72,50 +72,50 @@
 				invTime: 2500,
 				slides: [{
 						src: require('../assets/image/pic1.jpg'),
-						title: 'xxx1',
+						title: '灵异调查局特别报道震撼上市！！',
 						href: 'detail/count'
 					},
 					{
 						src: require('../assets/image/pic2.jpg'),
-						title: 'xxx2',
+						title: '<海鸥>全球首发！！',
 						href: 'detail/forecast'
 					},
 					{
 						src: require('../assets/image/pic3.jpg'),
-						title: 'xxx3',
+						title: '石头计划原创发布！！',
 						href: 'detail/analysis'
 					},
 					{
 						src: require('../assets/image/pic4.jpg'),
-						title: 'xxx4',
+						title: '云豆现场独家献唱！！',
 						href: 'detail/publish'
 					}
 				],
 				newsList: [],
 				boardList: [{
-						title: '开放产品',
-						description: '开放产品是一款开放产品',
+						title: '数据统计',
+						description: '数据统计基于大数据为企业获取需要的信息',
 						id: 'car',
 						toKey: 'count',
 						saleout: false
 					},
 					{
-						title: '品牌营销',
-						description: '品牌营销帮助你的产品更好地找到定位',
+						title: '音乐营销',
+						description: '音乐营销帮助你的企业产品更好地找到定位',
 						id: 'earth',
 						toKey: 'analysis',
 						saleout: false
 					},
 					{
-						title: '使命必达',
-						description: '使命必达快速迭代永远保持最前端的速度',
+						title: '物流速递',
+						description: '物流快速安全运输永远保持的便捷',
 						id: 'loud',
 						toKey: 'forecast',
 						saleout: true
 					},
 					{
-						title: '勇攀高峰',
-						description: '帮你勇闯高峰，到达事业的顶峰',
+						title: '逆流而上',
+						description: '勇攀高峰，助力到达事业的顶峰',
 						id: 'hill',
 						toKey: 'publish',
 						saleout: false
@@ -123,44 +123,44 @@
 				],
 				productList: {
 					pc: {
-						title: 'PC产品类',
+						title: 'PC游戏类产品',
 						list: [{
-								name: '数据统计',
+								name: '守望先锋',
 								url: 'http://starcraft.com'
 							},
 							{
-								name: '数据预测',
+								name: '绝地求生',
 								url: 'http://warcraft.com'
 							},
 							{
-								name: '流量分析',
+								name: '英雄联盟',
 								url: 'http://overwatch.com',
 								hot: true
 							},
 							{
-								name: '广告发布',
+								name: 'GTA-5',
 								url: 'http://hearstone.com'
 							}
 						]
 					},
 					app: {
-						title: '手机应用类',
+						title: '音乐应用产品',
 						last: true,
 						list: [{
-								name: '91助手',
+								name: 'QQ音乐',
 								url: 'http://weixin.com'
 							},
 							{
-								name: '产品助手',
+								name: '网易云音乐',
 								url: 'http://twitter.com',
 								hot: true
 							},
 							{
-								name: '智能地图',
+								name: '虾米音乐',
 								url: 'http://maps.com'
 							},
 							{
-								name: '团队语音',
+								name: '酷我音乐',
 								url: 'http://phone.com'
 							}
 						]
@@ -204,7 +204,7 @@
 	
 	.index-left-block {
 		margin: 15px;
-		background: #fff;
+		background: #EDEDED;
 		box-shadow: 0 0 1px #ddd;
 	}
 	
@@ -213,7 +213,7 @@
 	}
 	
 	.index-left-block h2 {
-		background: #4fc08d;
+		background: #8B636C;
 		color: #fff;
 		padding: 10px 15px;
 		margin-bottom: 20px;

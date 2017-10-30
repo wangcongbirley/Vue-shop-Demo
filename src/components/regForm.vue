@@ -1,5 +1,5 @@
 <template>
-	<div>注册。有兴趣的可以自己试着定义</div>
+	<div>注册页面,未开发.可以自定义.</div>
 </template>
 
 <script>

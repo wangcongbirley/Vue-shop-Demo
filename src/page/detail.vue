@@ -95,7 +95,7 @@
 	
 	.product-board li.active,
 	.product-board li:hover {
-		background: #4fc08d;
+		background: #CDB5CD;
 		color: #fff;
 	}
 	

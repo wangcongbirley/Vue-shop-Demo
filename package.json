@@ -1,7 +1,7 @@
 {
-  "name": "zhihu-daily",
+  "name": "sale-shop",
   "version": "1.0.0",
-  "description": "daily-news build with vue.js",
+  "description": "sale-shop build with vue.js",
   "author": "cong.wang",
   "private": true,
   "scripts": {
