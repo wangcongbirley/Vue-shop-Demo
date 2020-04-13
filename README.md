@@ -1,6 +1,9 @@
 # vue-sale-shop-case
 A shop case for vue.js!
 
+## 更新
+使用promise的axios请求，替代jQuery的ajax。
+
 ## 声明
 此项目基于Vue.js`2.x`,为DEMO项目.<br>
 综合运用Vue的所有知识，同学们可一起学习快速上手Vue
