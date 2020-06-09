@@ -9,7 +9,7 @@ A shop case for vue.js!
 综合运用Vue的所有知识，同学们可一起学习快速上手Vue
 
 ## 在线地址
-[在线演示地址](http://learntolearn.cn/ "Vue项目在线演示")
+[在线演示地址](http://learntolearn.cn/ "Vue项目在线演示")(虚拟服务器已到期)
 
 ## 学习说明
 此处使用json-server模拟后端接口。感谢(https://github.com/typicode/json-server)
